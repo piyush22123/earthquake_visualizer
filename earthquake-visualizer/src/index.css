@@ -1,0 +1,54 @@
+body, html, #root {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 260px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.map-area {
+  flex: 1;
+}
+
+.controls label {
+  display: block;
+  margin: 8px 0;
+}
+
+.controls select, .controls input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 4px;
+  border: 2px solid rgb(0, 177, 21);
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.loader {
+  color: #555;
+  margin-top: 12px;
+}
+
+.error {
+  color: red;
+  margin-top: 12px;
+}
